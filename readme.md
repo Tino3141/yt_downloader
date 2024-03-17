@@ -27,7 +27,7 @@ Prepare Your CSV File: Ensure you have a CSV file with the columns ytid, start_s
 Run the Script: Navigate to the directory containing main.py and run the following command:
 
 ```bash
-python download_music_segments.py --data path/to/yourfile.csv --directory path/to/download/directory --delimiter "," --max-workers N
+python main.py --data path/to/yourfile.csv --directory path/to/download/directory --delimiter "," --max-workers N
 ```
 
 Replace path/to/yourfile.csv with the path to your CSV file, path/to/download/directory with the path where you want the MP3 files to be saved, "," with the delimiter used in your CSV file (if different from a comma), and N with the number of parallel downloads you wish to run.
