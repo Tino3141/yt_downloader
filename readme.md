@@ -1,4 +1,4 @@
-# Music Segment Downloader
+# YouTube Segment Downloader
 
 This script, `main.py`, automates the process of downloading specific segments from YouTube videos as MP3 files, using `yt-dlp`. It reads a CSV file containing YouTube video IDs and the corresponding start and end times for each segment you wish to download. This is particularly useful for creating samples, clips, or extracting specific parts of audio from longer videos.
 
